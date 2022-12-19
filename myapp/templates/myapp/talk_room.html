@@ -1,1 +1,54 @@
-TR
+{% extends 'myapp/base.html' %}
+{% load static %}
+{% block extra_style %}
+<link rel="stylesheet" type="text/css" href="{% static 'myapp/css/talk_room.css' %}">
+{% endblock %}
+
+{% block header %}
+<header class="header">
+  <div class="header-container">
+    <div class="header-container__back">
+      <a href="{% url 'myapp:friends' %}">
+        <
+      </a>
+    </div>
+    <div class="header-title">
+      {{ friend.username }}
+    </div>
+    <div class="update">
+      <a href="{% url 'myapp:talk_room' friend.id %}">
+      更新
+      </a>
+    </div>
+  </div>
+</header>
+{% endblock %}
+
+{% block content %}
+<main class="main">
+  {% for tweet in message_list %}
+  <div class="wrapper">
+    <div class="sender"> > {{ tweet.sender }}</div>
+    <div class="message-wrapper">
+      <div class="message">{{ tweet.message }}</div>
+      <div class="created_at">{{ tweet.created_at }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</main>
+
+{% endblock %}
+
+{% block footer %}
+<footer class="footer">
+  <div class="footer-container">
+    <form method="POST">
+      {% csrf_token %}
+      <div class="form-wrapper">
+        <div class="messagebox">{{ form.as_p }}</div>
+        <div class="sousin"><button type="submit">送信</button></div>
+      </div>
+    </form>
+  </div>
+</footer>
+{% endblock %}

@@ -1,0 +1,74 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+}
+.container{
+  width: 100vw;  
+  list-style-type: none;
+  margin: 64px auto 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.item{
+  border-bottom: 2px solid gray;
+}
+.item a{
+  text-decoration: none;
+}
+
+.footer-container{
+  background-color: white;
+}
+
+.friend-list__usericon{
+  margin-top: 15px;
+}
+img{
+  border-radius: 50%;
+}
+
+
+.friend-list__item{
+  border-bottom: 1px solid;
+  height: 80px;
+}
+
+.item-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.friend-list__link{
+  text-decoration: none;
+  color: black;
+}
+.friend-list__contents{
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 100%;
+}
+.friend-list__username{
+  font-size: 25px;
+}
+.latestmessage{
+  font-size: 15px;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  width: 100vw;
+}
+.footer-container{
+  background-color: white;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

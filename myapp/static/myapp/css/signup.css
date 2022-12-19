@@ -1,0 +1,34 @@
+.form{
+  margin-left: 100px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.form-short{
+  margin-left: 0;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  list-style: none;
+}
+.form-pwdchange{
+  margin-left: 35%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.submit-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.submit{
+  height: 50px;
+  width: 200px;
+}
+.done{
+  margin-top: 50px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+

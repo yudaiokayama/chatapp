@@ -1,0 +1,54 @@
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  line-height: 2.5;
+}
+.header-container__back{
+  font-size: 40px;
+  line-height: 1.7;
+}
+.update a{
+  color: grey;  
+}
+.wrapper{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.sender{
+  margin-bottom: 5px ;
+}
+.message-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.message{
+  font-size: 20px;
+}
+.created_at{
+  color: grey;
+}
+.footer-container{
+  background-color:white;
+}
+.form-wrapper{
+  display: flex;
+}
+
+#id_message{
+  width: 55vw;
+  margin-left: 15vw;
+}
+.sousin button{
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 14vw;
+  height: 23px;
+}

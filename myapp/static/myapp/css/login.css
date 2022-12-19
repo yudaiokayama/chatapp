@@ -1,0 +1,17 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.username{
+  margin-bottom: 30px;
+}
+.login{
+  margin-top: 30px;
+  text-align: center;
+}
+.login button{
+  width: 100px;
+  height: 35px; 
+}

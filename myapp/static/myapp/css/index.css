@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body a{
+  text-decoration: none;
+}
+.button-wrapper{
+  margin: 210px auto;
+}
+.login_button{
+  text-align: center;
+  width: fit-content;
+  border: 3px solid gray;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 20%;
+  padding: 10px;
+}
+.register_button{
+  text-align: center;
+  width: fit-content;
+  border: 3px solid gray;
+  margin: 0 auto;
+  border-radius: 20%;
+  padding: 10px;
+}

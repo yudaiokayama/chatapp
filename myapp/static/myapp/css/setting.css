@@ -1,0 +1,19 @@
+body{
+  text-decoration: none;
+}
+.setting{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.setting_item{
+  border: 2px solid gray;
+  padding: 5px;
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 35%;
+  border-radius: 10px;
+}
+.action{
+  text-decoration: none;
+}

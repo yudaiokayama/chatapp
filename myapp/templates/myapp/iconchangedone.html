@@ -1,0 +1,15 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+{% block extra_style %}
+<link rel="stylesheet" type="text/css" href="{% static 'myapp/css/signup.css' %}">
+{% endblock %}
+
+{% block header-title %}アイコン変更{% endblock %}
+
+{% block content %}
+<body>
+<div class="done">
+アイコン変更完了
+</div>
+</body>
+{% endblock %}
